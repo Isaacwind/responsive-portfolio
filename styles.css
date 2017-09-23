@@ -1,0 +1,221 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+nav {
+	height: 70px;
+}
+
+#logo {
+	float: left;
+	background-color: #51A9A3;
+	color: white;
+	font-size: 24px;
+	padding: 20px 20px;
+}
+
+.navbar-nav {
+	float: right;
+	margin-top: 20px;
+}
+
+.navbar-nav > li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 20px;
+	color: gray;
+	font-family: Verdana;
+}
+
+.clearer {
+	clear: both;
+}
+
+.about-section {
+	background-color: #eee;
+	padding: 20px 20px;
+}
+
+.about {
+	float: left;
+	width: 500px;
+	background-color: white;
+	padding: 20px 20px;
+}
+
+.about-details {
+	text-align: left;
+}
+
+.about-details > img {
+	width: 130px;
+	height: auto;
+	float: left;
+	padding-right: 10px;
+}
+
+.about-details > p {
+	line-height: 1.5;
+}
+
+.about-details > .first-paragraph {
+	float: left;
+
+}
+
+.social-buttons {
+	float: right;
+	background-color: white;
+	padding: 20px 20px;
+}
+
+.social-buttons > ul > li {
+	display: inline;
+	list-style-type: none;
+}
+
+footer {
+	background-color: #656465;
+	padding: 20px 20px;
+	border-top: 6px solid #51A9A3;
+}
+
+footer > p {
+	color: white;
+	font-family: sans-serif;
+	font-size: 10px;
+	text-align: center;
+}
+
+
+/* CONTACT PAGE STARTS */
+
+.contact-section {
+	background-color: #eee;
+	padding: 40px 5px;
+}
+
+.form-details {
+	float: left;
+	width: 500px;
+	background-color: white;
+	padding: 25px 25px;
+}
+
+.form-details h1 {
+	color: #51A9A3;
+}
+
+.form-details > form > label {
+	color: gray;
+}
+
+.form-details > form input {
+	padding: 8px 10px;
+	font-size: 14px;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.form-details textarea {
+	margin-top: 5px;
+	height: 150px;
+	width: 100%;
+}
+
+#send-button {
+	background: #51a9a3;
+	color: white;
+	font-size: 16px;
+	padding: 10px 10px;
+	outline: none;
+	border: none;
+	width: 150px;
+}
+
+/* PORTFOLIO PAGE STARTS */
+
+
+#portbod{
+	float: left;
+	width: 450px;
+	/*height: 1000%;*/
+	background: white;
+	display: inline-block;
+}
+
+.portitem{
+	display: inline-block;
+}
+
+
+
+.portfolio-section {
+	background: #eee;
+	padding: 40px 5px;
+}
+
+@media screen and (max-width:980px)  {
+	body {
+		background: blue;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	body {
+
+		background: red;
+	}
+
+	.about {
+		float: none;
+		width: 100%;
+	}
+
+	.social-buttons {
+		margin-top: 20px;
+		float: none;
+		width: 100%;
+	}
+
+	.form-details{
+		width: 100%;
+
+	}
+	.portbod {
+		float: none;
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 640px) {
+	body {
+		background: yellow;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
